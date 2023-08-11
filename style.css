@@ -4,7 +4,7 @@
 
 .cuadrado {
     width: 400px;
-    height: 600px;
+    height: 650px;
     background-color: white;
     position: absolute;
     position: absolute;
@@ -18,8 +18,32 @@ img {
     position: relative;
     z-index: 1;
     border-radius: 20px;
+    top: -15px;
+}
+.titulo {
+    top: -10px;
+}
+h2 {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    top: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 
+p {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parrafo2 {
+    top: -10px;
+}
+.parrafo3 {
+    top: -20px;
+}
 body {
     background-color: rgb(213, 224, 239);
     display: flex;
